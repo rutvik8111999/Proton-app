@@ -100,10 +100,9 @@ function Home() {
                 We offers consultancy service for acquiring <br />
                 or selling rights of films, web series, songs
                 <br />
-                etc{" "}
+                etc
               </p>
               <p>
-                {" "}
                 We avail options VOD, Satellite TV Rights
                 <br />
                 and IPTV Rights etc for content belonging to a <br />
@@ -147,10 +146,10 @@ function Home() {
         </div>
 
         <div className="imgs">
-          <img src={PIC1} alt="" />
-          <img src={PIC2} alt="" />
-          <img src={PIC3} alt="" />
-          <img src={PIC4} alt="" />
+          <img src={PIC1} alt="hi" />
+          <img src={PIC2} alt="hi" />
+          <img src={PIC3} alt="hi" />
+          <img src={PIC4} alt="hi" />
         </div>
       </div>
 

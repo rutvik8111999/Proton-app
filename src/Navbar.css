@@ -29,7 +29,7 @@
   top: 0;
 }
 .nav .active {
-  /* color: aliceblue; */
+  color: aliceblue;
   text-decoration: none;
   display: flex;
   list-style: none;

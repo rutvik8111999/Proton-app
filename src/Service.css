@@ -5,6 +5,7 @@
 .text1 {
   display: flex;
   justify-content: space-between;
+  padding-top: 90px;
 }
 .date {
   margin-left: 75px;
@@ -15,10 +16,18 @@
 }
 .fit {
   margin-top: -40px;
+  margin-bottom: 20px;
 }
 .hr1 {
   width: 250px;
   border: 1.5px solid rgb(250, 231, 195);
+}
+.serviceleftquotes img {
+  height: 33px;
+}
+.servicerightquotes img {
+  margin-left: 390px;
+  height: 33px;
 }
 .horizon {
   border-radius: 100%;
@@ -28,6 +37,8 @@
   margin-top: -7px;
 }
 .date h3 {
+  margin-top: 0;
+  margin-bottom: 0;
   font-size: 38px;
   color: white;
 }
@@ -38,7 +49,7 @@
   font-size: 24px;
   color: white;
 }
-.text1 img {
+.servicesimg {
   height: 530px;
   width: 500px;
   margin-right: 40px;
