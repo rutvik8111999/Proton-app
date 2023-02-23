@@ -6,7 +6,7 @@ import Contact from "./Contact";
 import "./App.css";
 // import Navbar from "./Navbar";
 import Footer from "./Footer";
-import LetMeet from "./Let'Meet";
+import LetMeet from "./LetMeet";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
           <Route path="/aboutus" element={<Aboutus />} />
           <Route path="/service" element={<Services />} />
           <Route path="/contactus" element={<Contact />} />
-          <Route path="/letmeet" element={<LetMeet />} />
+          <Route path="/LetMeet" element={<LetMeet />} />
         </Routes>
         <Footer />
       </Router>

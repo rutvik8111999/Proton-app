@@ -22,7 +22,7 @@ function Navbar() {
           <Link className="active" to="/contactus">
             Contact us
           </Link>
-          <Link className="active" to="/letmeet">
+          <Link className="active" to="/LetMeet">
             <button>Let's Meet </button>
           </Link>
         </div>
