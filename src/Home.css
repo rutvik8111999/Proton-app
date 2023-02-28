@@ -324,7 +324,58 @@
       font-size: 20px;
       margin: auto;
     } */
-@media screen and (max-width: 600px) {
+@media (max-width: 1249px) {
+  .vartic,
+  .vartic1,
+  .vartic2 {
+    display: none;
+  }
+  /* .date1 {
+    display: block !important;
+  } */
+}
+@media (max-width: 867px) {
+  .date1,
+  .date2,
+  .date3 {
+    display: block !important;
+  }
+}
+@media (max-width: 867px) {
+  .date1 img,
+  .date2 img,
+  .date3 img {
+    width: 650px;
+  }
+}
+@media screen and (max-width: 775px) {
+  .date1 img,
+  .date2 img,
+  .date3 img {
+    width: 450px;
+  }
+}
+@media screen and (max-width: 533px) {
+  .date1 img,
+  .date2 img,
+  .date3 img {
+    width: 350px;
+  }
+  .imgs img {
+    height: 400px;
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 420px) {
+  .date1 img,
+  .date2 img,
+  .date3 img {
+    width: 250px;
+    height: 439px;
+  }
+}
+
+/* @media screen and (max-width: 600px) {
   .container1 {
     height: 300px;
     width: 100%;
@@ -332,9 +383,7 @@
   .title {
     font-size: 35px;
   }
-  .date1,
-  .date2,
-  .date3 {
+  .date1 {
     display: block;
   }
   .head1 h1,
@@ -377,6 +426,7 @@
   .graf1 .vartic1,
   .graf2 .vartic2 {
     margin-top: -10px;
+    display: none;
   }
 
   .graf .vartic .vl2 {
@@ -414,19 +464,19 @@
     font-size: 30px;
     height: 40px;
   }
-  /* .top2{
-      font-size: 50px;
-    }
-    .h3{
-      margin-top: -25px;
-      font-size: 20px;
-    }
-    .p2{
-      font-size: 12px;
-    }
-    .top h5{
-      font-size: 12px;
-      height: 12px;
-      width: 100px;
-    } */
-}
+  .top2 {
+    font-size: 50px;
+  }
+  .h3 {
+    margin-top: -25px;
+    font-size: 20px;
+  }
+  .p2 {
+    font-size: 12px;
+  }
+  .top h5 {
+    font-size: 12px;
+    height: 12px;
+    width: 100px;
+  }
+} */

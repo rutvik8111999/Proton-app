@@ -68,14 +68,14 @@
 .text2 {
   margin-top: -50px;
 }
-.head1 {
+/* .head1 {
   display: flex;
   margin-top: -90px;
-}
-.head1 h1 {
+} */
+/* .head1 h1 {
   font-size: 130px;
   color: rgb(17, 49, 65);
-}
+} */
 .fit1 {
   margin-top: 180px;
   margin-left: -78px;
@@ -97,11 +97,11 @@
   margin-top: 160px;
   margin-left: 9px;
 }
-.graf {
+/* .graf {
   display: flex;
   margin-left: 40px;
   margin-top: -70px;
-}
+} */
 /* .vartic {
   margin-top: -6px;
 } */
@@ -329,7 +329,7 @@
       margin: auto;
     } */
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   .text1 {
     display: block;
     margin-top: -20px;
@@ -440,8 +440,8 @@
   .date3 img {
     width: 300px;
     height: 400px;
-  }
-  /* .top2{
+  } */
+/* .top2{
       font-size: 50px;
     }
     .h3{
@@ -456,4 +456,4 @@
       height: 12px;
       width: 100px;
     } */
-}
+/* } */

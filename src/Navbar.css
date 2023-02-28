@@ -3,7 +3,7 @@
   width: 100%;
   background-color: transparent;
   color: #fff;
-  opacity: 0.9;
+  /* opacity: 1; */
   background-position: center;
   position: fixed;
   top: 0px;
@@ -49,11 +49,13 @@
 }
 @media screen and (max-width: 600px) {
   .banner {
-    height: 300px;
+    display: none;
   }
   .logo {
-    height: 80px;
-    margin-top: 50px;
+    display: none;
+  }
+  .logo img {
+    margin-top: 0;
   }
   .nav,
   .active,

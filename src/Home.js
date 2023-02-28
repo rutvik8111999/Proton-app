@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import SEC1BG from "./img/SEC1BG.jpg";
+// import protonBack from "./img/proton-back.png";
 import t3 from "./img/Rectangle 5458.png";
 import t2 from "./img/Rectangle 5457.png";
 import t4 from "./img/Rectangle 5464.png";
@@ -59,7 +60,8 @@ function Home() {
           </div>
         </div>
 
-        <img className="img2" src={t2} alt="" />
+        <img className="img2" src={t2} alt="hi" />
+        {/* <img src={protonBack} alt="hi" /> */}
       </div>
 
       <div className="date2">
